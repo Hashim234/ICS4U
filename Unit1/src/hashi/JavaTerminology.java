@@ -3,9 +3,10 @@
  */
 package hashi;
 
-/**
- * @author 324350081
- *
+/**ICS3U
+ * Java terminology 
+ * hashim hashi
+ *20/09/16
  */
 public class JavaTerminology {
 
