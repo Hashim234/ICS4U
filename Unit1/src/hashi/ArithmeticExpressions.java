@@ -33,7 +33,7 @@ public class ArithmeticExpressions {
 		System.out.println("The product of the first and fifth number is " + ( num1 * num5));
 		System.out.println("The quotient of the fourth number divided by the second number is " + ( num4 / num2));
 		System.out.println("The remainder when dividing the fourth number by the second number is " + ( num4 % num2));
-		System.out.println("The first number raised to the power of the third number " + ( num1 ^ num3));
+		System.out.println("The first number raised to the power of the third number " + Math.pow( num1, num3));
 		System.out.println("The square root of the fifth number " + Math.sqrt(num5));
 		
 	}
