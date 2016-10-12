@@ -7,8 +7,10 @@ import java.text.DecimalFormat;
 import java.util.Scanner;
 
 /**
- * @author 324350081
- *
+ * ICS3U
+ * Hashim Hashi
+ * Order Application
+ *12/10/2016
  */
 public class OrderApplication {
 
