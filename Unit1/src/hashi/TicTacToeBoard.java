@@ -4,8 +4,10 @@
 package hashi;
 
 /**
- * @author 324350081
- *
+ * ICS3U
+ * Hashim hashi
+ *TicTacToeBoard 
+ *14/09/2016
  */
 public class TicTacToeBoard {
 
