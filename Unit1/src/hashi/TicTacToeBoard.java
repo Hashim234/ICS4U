@@ -23,7 +23,7 @@ public class TicTacToeBoard {
 		System.out.println("  --------------------");
 		System.out.println("\t|\t|"); 
 		System.out.println("\t|\t|"); 
-		System.out.println("\t|\t|"); 
+		System.out.println("\t|\t|");
 	}
 
 }
