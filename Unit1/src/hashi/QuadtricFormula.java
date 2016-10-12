@@ -6,8 +6,10 @@ package hashi;
 import java.util.Scanner;
 import java.text.DecimalFormat;
 /**
- * @author 324350081
- *
+ * ICS3U
+ * hashim hashi
+ *Quadratic Formula
+ *30/09/2016
  */
 public class QuadtricFormula {
 
