@@ -31,7 +31,7 @@ DecimalFormat df= new DecimalFormat ("0.00");
 		
 		
 		
-		
+		sc.close();
 		
 		
 		
