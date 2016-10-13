@@ -36,6 +36,7 @@ public class ArithmeticExpressions {
 		System.out.println("The first number raised to the power of the third number " + Math.pow( num1, num3));
 		System.out.println("The square root of the fifth number " + Math.sqrt(num5));
 		
+		sc.close();
 	}
 
 }
