@@ -6,7 +6,8 @@ package hashi;
 /**
  * ICS3U
  * Hashim hashi
- *TicTacToeBoard 
+ *TicTacToeBoard.java
+ *an example of a tictactoe board 
  *14/09/2016
  */
 public class TicTacToeBoard {
