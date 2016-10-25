@@ -3,8 +3,8 @@
  */
 package hashi;
 
-/**ICS3U
- * Bingo
+/**Bingo.java
+ * this programs produces a bingo card
  * 15/09/16
  * Hashim Hashi
  */
