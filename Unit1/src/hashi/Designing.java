@@ -28,7 +28,7 @@ public class Designing {
 		double designingPercentage;
 		double codingPercentage;
 		double debuggingPercentage;
-		double testingPercentage;
+		double testingPercentage;  
 		
 		
 		
@@ -47,10 +47,10 @@ public class Designing {
 		total= (designing+ coding+ debugging+ testing);
 		
 		System.out.println("Task\t\t% Time");
-		System.out.println("Designing\t"+df.format(designing/total));
-		System.out.println("Coding\t\t"+df.format(coding/total));
-		System.out.println("Debugging\t"+df.format(debugging/total));
-		System.out.println("Testing\t\t"+df.format(testing/total));
+		System.out.println("Designing\t%"+df.format(designing/total*100));
+		System.out.println("Coding\t\t%"+df.format(coding/total*100));
+		System.out.println("Debugging\t%"+df.format(debugging/total*100));
+		System.out.println("Testing\t\t%"+df.format(testing/total*100));
 	}
 
 }
