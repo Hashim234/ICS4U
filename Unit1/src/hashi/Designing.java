@@ -6,9 +6,10 @@ package hashi;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-/**
- * @author 324350081
- *
+/**ICS3U
+ *Designing.java
+ *Hashim Hashi
+ *26/10/16
  */
 public class Designing {
 
