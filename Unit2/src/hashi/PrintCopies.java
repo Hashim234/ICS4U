@@ -30,19 +30,19 @@ public class PrintCopies {
 		
 		if(number<=99){
 		System.out.println("Price per copy is 0.30");	
-		System.out.println("your total is" + df.format(0.30*number));
+		System.out.println("your total is $" + df.format(0.30*number));
 		}
 		else if(number<=499){
 			System.out.println("Price per copy is 0.28");
-			System.out.println("your total is" + df.format(0.28*number));
+			System.out.println("your total is $" + df.format(0.28*number));
 		}
 			else if(number<=749){
 				System.out.println("Price per copy is 0.27");
-				System.out.println("your total is" + df.format(0.27*number));
+				System.out.println("your total is $" + df.format(0.27*number));
 			}
 		else if(number<=1000){
 			System.out.println("Price per copy is 0.26");
-					System.out.println("your total is" + df.format(0.26*number));
+					System.out.println("your total is $" + df.format(0.26*number));
 		}
 		
 		
