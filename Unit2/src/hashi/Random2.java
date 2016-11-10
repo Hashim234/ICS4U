@@ -24,10 +24,10 @@ public class Random2 {
 		int total;
 		int ctotal;
 
-		die1=(int)(Math.random()*6+1);
-		die2=(int)(Math.random()*6+1);
-		cdie1=(int)(Math.random()*6+1);
-		cdie2=(int)(Math.random()*6+1);
+		die1=(int)(Math.random()*6)+1;
+		die2=(int)(Math.random()*6)+1;
+		cdie1=(int)(Math.random()*6)+1;
+		cdie2=(int)(Math.random()*6)+1;
 
 		total= die1 + die2;
 		ctotal= cdie1 +cdie2;
