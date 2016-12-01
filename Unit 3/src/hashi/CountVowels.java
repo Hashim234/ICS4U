@@ -39,7 +39,7 @@ public class CountVowels {
 			vowels++;
 		}
 		}
-		System.out.println("The number of vowels in" + word + " is "+vowels +".");
+		System.out.println("The number of vowels in " + word + " is "+vowels +".");
 		  sc.close();
 		  
 		   
