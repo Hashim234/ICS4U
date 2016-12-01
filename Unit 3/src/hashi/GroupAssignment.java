@@ -3,9 +3,11 @@
  */
 package hashi;
 import java.util.*;
-/**
- * @author 324350081
- *
+/**ICS3U
+ * GroupAssignment.java
+ * this program assigns you a group according to your last name
+ * Hashim Hashi
+ * 01/12/2016
  */
 public class GroupAssignment {
 
