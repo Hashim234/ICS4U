@@ -18,7 +18,7 @@ public class Chaos {
 		  Scanner sc = new Scanner(System.in);
 		 
 		  double total;
-		  
+		   
 		  System.out.print("Enter a number");
 		  total =sc.nextDouble(); 
 		  
