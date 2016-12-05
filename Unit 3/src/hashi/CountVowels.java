@@ -3,9 +3,11 @@
  */
 package hashi;
 import java.util.*;
-/**
- * @author 324350081
- *
+/**ICS3U
+ * CountVowels.java
+ * This program counts how many vowels there are in a sentence.
+ *Hashim Hashi
+ *05/12/2016
  */
 public class CountVowels {
 
