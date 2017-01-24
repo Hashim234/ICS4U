@@ -29,6 +29,8 @@ public class IQtest {
 	 * @throws IOException 
 	 */
 	public static void main(String[] args) throws InterruptedException, IOException {
+		boolean gameover= false;
+	do{
 		int scoretracker =0;
 		String answer;
 		BufferedImage pic=ImageIO.read(new File("src/hashi/brain.jpg"));
@@ -50,11 +52,11 @@ public class IQtest {
          
 		}
 		else{
-			c.close();
+			break;
 
 	
 		}
-		
+	}while (true);
 	}
 	/**
 	 * this method will state the rules of the test	
@@ -66,7 +68,7 @@ public class IQtest {
 		c.println("4.Keep your eyes on your own screen");	
 		c.println("5.you have 10 mins to complete the test");	
 	}
-	public static void questionanswer(int scoretracker){
+	public static void questionanswer(int scoretracker) throws InterruptedException{
 		String[][] questanswers =new String [9][9];
 		questanswers[0][0]="which animal has the most legs?"; 
 		questanswers[1][0]="dog";
@@ -206,7 +208,9 @@ public class IQtest {
 		}
 		else{
 			
-		}
+		}c.clear();
 		  c.println("Your final score is " + scoretracker + "/70");
+		  Thread.sleep(5000);
+			c.clear();
  	}
 }
